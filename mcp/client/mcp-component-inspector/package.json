@@ -1,0 +1,17 @@
+{
+  "name": "@pinkney/mcp-component-inspector",
+  "version": "1.0.0",
+  "description": "前端端侧组件树与 TypeScript Props 契约静态探测 MCP Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "typescript": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}

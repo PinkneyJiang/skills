@@ -1,0 +1,18 @@
+{
+  "name": "@pinkney/mcp-browser-automation",
+  "version": "1.0.0",
+  "description": "基于原生 Puppeteer-Core 与本地 Chrome 引擎的无头浏览器自动化与视觉探测 MCP Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "puppeteer-core": "^24.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

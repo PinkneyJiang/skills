@@ -1,0 +1,247 @@
+{
+  "name": "pinkney-agent-hub",
+  "version": "3.1.0",
+  "description": "Pinkney Agent Hub - 国际顶级通用 AI 技能 (Skills)、协议 (MCP) 与架构规范 (Specs) 公共资产中台",
+  "updatedAt": "2026-09-07T07:42:17.404Z",
+  "stats": {
+    "totalSkills": 23,
+    "totalMcp": 3,
+    "totalSpecs": 4
+  },
+  "pillars": {
+    "skills": {
+      "core": {
+        "code-review": {
+          "id": "code-review",
+          "category": "core",
+          "pillar": "skills",
+          "description": "沿两个完全解耦的独立维度（规范轴 Standards 与契约轴 Spec）对指定基线以来的代码变更进行专业审查。支持并行双子代理深度审查与 Martin Fowler 12 大坏味道基线诊断。",
+          "path": "skills/core/code-review"
+        },
+        "codebase-design": {
+          "id": "codebase-design",
+          "category": "core",
+          "pillar": "skills",
+          "description": "现代深模块 (Deep Module) 设计统一词汇表与核心架构准则。用于设计或优化模块接口、判定架构接缝、消除浅模块，提升系统可维护性、可测试性与 AI 可导航性。",
+          "path": "skills/core/codebase-design"
+        },
+        "diagnosing-bugs": {
+          "id": "diagnosing-bugs",
+          "category": "core",
+          "pillar": "skills",
+          "description": "针对疑难故障、性能衰退与偶发缺陷的标准诊断排查流水线。当用户提及排查/诊断/修复这个bug、出现抛错、异常、失败或性能急剧变慢时触发。",
+          "path": "skills/core/diagnosing-bugs"
+        },
+        "domain-modeling": {
+          "id": "domain-modeling",
+          "category": "core",
+          "pillar": "skills",
+          "description": "建立、锐化并持续维护项目的领域模型与专业词汇表。在讨论业务概念、编写或维护 CONTEXT.md、记录架构决策 ADR 时深度应用。",
+          "path": "skills/core/domain-modeling"
+        },
+        "grill-me": {
+          "id": "grill-me",
+          "category": "core",
+          "pillar": "skills",
+          "description": "高强度技术方案与设计决策对齐追问机制。在复杂特性实施前，通过层层剖析、极限挑战与反向推演，彻底榨干需求歧义并沉淀关键架构决策。",
+          "path": "skills/core/grill-me"
+        },
+        "implement": {
+          "id": "implement",
+          "category": "core",
+          "pillar": "skills",
+          "description": "基于需求规范说明书 (Spec) 或任务工单落地实现的标准流水线。协同 TDD 驱动、分层自测、静态类型校验与代码审查，确保高质量交付。",
+          "path": "skills/core/implement"
+        },
+        "improve-architecture": {
+          "id": "improve-architecture",
+          "category": "core",
+          "pillar": "skills",
+          "description": "扫描代码库中的架构摩擦点，识别浅模块并挖掘深模块演进机会。生成可视化交互式 HTML 诊断报告，并在用户确认后闭环实施深度重构。",
+          "path": "skills/core/improve-architecture"
+        },
+        "mcp-builder": {
+          "id": "mcp-builder",
+          "category": "core",
+          "pillar": "skills",
+          "description": "开发高品质 MCP (Model Context Protocol) 服务的全流程指南。用于基于 FastMCP (Python) 或官方 MCP TypeScript SDK 创建连接外部系统与工具的服务器。",
+          "path": "skills/core/mcp-builder"
+        },
+        "research": {
+          "id": "research",
+          "category": "core",
+          "pillar": "skills",
+          "description": "针对未知技术、API 契约、底层原理或第三方库的高可信技术调研。坚持第一手事实源验证，并输出结构化技术评估报告。",
+          "path": "skills/core/research"
+        },
+        "skill-creator": {
+          "id": "skill-creator",
+          "category": "core",
+          "pillar": "skills",
+          "description": "创建新技能、修改完善现有技能，并评估与基准测试技能的表现。用于从零创建技能、优化触发词精度、设计测试用例及提升自动化协作效能。",
+          "path": "skills/core/skill-creator"
+        },
+        "tdd": {
+          "id": "tdd",
+          "category": "core",
+          "pillar": "skills",
+          "description": "测试驱动开发 (Test-Driven Development) 标准执行流程。在编写新特性或修复 Bug 时以测试先行，遵循红-绿-重构循环，保障高质量代码接缝。",
+          "path": "skills/core/tdd"
+        },
+        "to-spec": {
+          "id": "to-spec",
+          "category": "core",
+          "pillar": "skills",
+          "description": "将当前对话上下文和代码库现状提炼为清晰规范的特性技术规格说明书 (Spec)，并发布至项目任务追踪系统。无需繁琐重复面试，精准聚合已知共识。",
+          "path": "skills/core/to-spec"
+        }
+      },
+      "client": {
+        "apple-design-philosophy": {
+          "id": "apple-design-philosophy",
+          "category": "client",
+          "pillar": "skills",
+          "description": "苹果流体物理界面设计哲学 (WWDC 2018 Fluid Interfaces) 在现代 Web 的完整落地指南。深入弹簧物理学、直接操控、可随时打断性与动量交接。",
+          "path": "skills/client/apple-design-philosophy"
+        },
+        "canvas-design": {
+          "id": "canvas-design",
+          "category": "client",
+          "pillar": "skills",
+          "description": "运用深度设计哲学在 Canvas、PNG 与 PDF 上创作具有大师级精湛工艺的高品质静态视觉艺术制品。倡导以空间与形式传达思想，克制文字，实现纯粹的艺术表达。",
+          "path": "skills/client/canvas-design"
+        },
+        "frontend-design-excellence": {
+          "id": "frontend-design-excellence",
+          "category": "client",
+          "pillar": "skills",
+          "description": "现代前端界面卓越视觉与体验设计指南。用于摆脱模板化廉价感与 AI 生成特征，在排版、配色、层次构图与微交互中注入专业设计水准。",
+          "path": "skills/client/frontend-design-excellence"
+        },
+        "interactive-animation-engine": {
+          "id": "interactive-animation-engine",
+          "category": "client",
+          "pillar": "skills",
+          "description": "基于专业动效工程的高性能交互动效构建引擎。严格依照动效决策顺序（是否动、动效目的、工具选型、物理曲线与硬件加速）编写经久耐看的高品质动效代码。",
+          "path": "skills/client/interactive-animation-engine"
+        },
+        "sse-streaming-client": {
+          "id": "sse-streaming-client",
+          "category": "client",
+          "pillar": "skills",
+          "description": "工业级前端大模型 SSE (Server-Sent Events) 与二进制流式通信客户端。内置 UTF-8 跨包截断解码自愈、4 字节大端定长帧解包、requestAnimationFrame 平滑打字机缓冲插值队列与指数退避断线重连。",
+          "path": "skills/client/sse-streaming-client"
+        },
+        "theme-factory": {
+          "id": "theme-factory",
+          "category": "client",
+          "pillar": "skills",
+          "description": "工业级专业主题色彩与字体设计系统。包含 10 大精选主题预设方案（色值体系、字型排版与适用场景）以及符合 WCAG 2.1 AA 无障碍对比度的定制主题生成协议。",
+          "path": "skills/client/theme-factory"
+        },
+        "web-artifacts-builder": {
+          "id": "web-artifacts-builder",
+          "category": "client",
+          "pillar": "skills",
+          "description": "构建现代化复杂 Web HTML 单文件自包含制品的完整工具箱。基于 React 18、Tailwind CSS、shadcn/ui 与内联打包器，打造兼具极致视觉与完整状态的独立交互制品。",
+          "path": "skills/client/web-artifacts-builder"
+        },
+        "webapp-e2e-testing": {
+          "id": "webapp-e2e-testing",
+          "category": "client",
+          "pillar": "skills",
+          "description": "基于 Playwright 的本地 Web 应用自动化交互、测试、截屏与调试工具箱。支持全流程生命周期管理、网络空闲判定与端到端功能验证。",
+          "path": "skills/client/webapp-e2e-testing"
+        }
+      },
+      "server": {
+        "clean-architecture-module": {
+          "id": "clean-architecture-module",
+          "category": "server",
+          "pillar": "skills",
+          "description": "规范化构建符合整洁架构与分层解耦原则的后端业务模块 (Controller -> Service -> Repository -> DTO/VO)。杜绝胖 Controller、循环依赖与贫血持久化混杂。",
+          "path": "skills/server/clean-architecture-module"
+        },
+        "dto-runtime-validation": {
+          "id": "dto-runtime-validation",
+          "category": "server",
+          "pillar": "skills",
+          "description": "现代后端强类型运行时入参校验 (Request DTO) 与响应契约 (Response VO) 设计规范。深度整合 class-validator、class-transformer 与 OpenAPI Swagger 文档。",
+          "path": "skills/server/dto-runtime-validation"
+        },
+        "prisma-transaction-lifecycle": {
+          "id": "prisma-transaction-lifecycle",
+          "category": "server",
+          "pillar": "skills",
+          "description": "现代数据库高并发事务与生命周期管理标准。涵盖 Prisma 交互式事务 ($transaction)、防长事务挂起超时配置、乐观并发控制与死锁自动重试。",
+          "path": "skills/server/prisma-transaction-lifecycle"
+        }
+      }
+    },
+    "mcp": {
+      "core": {
+        "mcp-browser-automation": {
+          "id": "mcp-browser-automation",
+          "category": "core",
+          "pillar": "mcp",
+          "description": "基于原生 Puppeteer-Core 与本地 Chrome 引擎的无头浏览器自动化与视觉探测 MCP Server",
+          "path": "mcp/core/mcp-browser-automation"
+        }
+      },
+      "client": {
+        "mcp-component-inspector": {
+          "id": "mcp-component-inspector",
+          "category": "client",
+          "pillar": "mcp",
+          "description": "前端端侧组件树与 TypeScript Props 契约静态探测 MCP Server",
+          "path": "mcp/client/mcp-component-inspector"
+        }
+      },
+      "server": {
+        "mcp-database-inspector": {
+          "id": "mcp-database-inspector",
+          "category": "server",
+          "pillar": "mcp",
+          "description": "企业级数据库与 Prisma Schema 只读探测 MCP Server",
+          "path": "mcp/server/mcp-database-inspector"
+        }
+      }
+    },
+    "specs": {
+      "core": {
+        "generative-ui-protocol": {
+          "id": "generative-ui-protocol",
+          "category": "core",
+          "pillar": "specs",
+          "description": "大模型驱动的生成式 UI (Generative UI) 流式交互协议标准。定义组件动态声明语法、流式解析状态机、前端挂载容器与安全沙箱执行规约。",
+          "path": "specs/core/generative-ui-protocol"
+        },
+        "universal-api-response": {
+          "id": "universal-api-response",
+          "category": "core",
+          "pillar": "specs",
+          "description": "企业级统一前后端 RESTful / RPC API 响应格式与错误处理契约规范。包含统一封装信封结构、全局业务状态码字典、NestJS 统一响应拦截器与前端 Axios 自动解包实现。",
+          "path": "specs/core/universal-api-response"
+        }
+      },
+      "client": {
+        "frontend-page-lifecycle": {
+          "id": "frontend-page-lifecycle",
+          "category": "client",
+          "pillar": "specs",
+          "description": "现代前端单页应用 (SPA / SSR) 页面生命周期与容错设计标准。包含路由导航守卫流程、数据并行预取策略、多级缓存失效矩阵与错误边界兜底体系。",
+          "path": "specs/client/frontend-page-lifecycle"
+        }
+      },
+      "server": {
+        "restful-crud-conventions": {
+          "id": "restful-crud-conventions",
+          "category": "server",
+          "pillar": "specs",
+          "description": "现代微服务与云原生 RESTful CRUD API 深度设计规范。统一资源路径命名、HTTP 动词语义、标准状态码对照、批量操作与版本演进策略。",
+          "path": "specs/server/restful-crud-conventions"
+        }
+      }
+    }
+  }
+}
