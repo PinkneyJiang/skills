@@ -3,7 +3,7 @@
 > **企业级纯净开源通用 AI 技能 (Skills)、工具协议 (MCP) 与架构规范 (Specs) 公共资产中台**
 > 面向全网开源，遵循纯粹的通用工程范式，无任何特定业务污染。任何 React、Vue、NestJS、.NET 或跨端全栈工程均可一键拉取即用！
 >
-> 🌟 **核心指标**: **23 个工业级通用技能** (Core 12 + Client 8 + Server 3) ｜ **3 大真实独立 MCP 服务器** ｜ **4 套深度全栈架构规范** ｜ **100% 纯中文**
+> 🌟 **核心指标**: **24 个工业级通用技能** (Core 13 + Client 8 + Server 3) ｜ **3 大真实独立 MCP 服务器** ｜ **4 套深度全栈架构规范** ｜ **100% 纯中文**
 
 ---
 
@@ -48,6 +48,7 @@
 - **[`@core/tdd`](./skills/core/tdd)** *(来源: Matt Pocock)*: 测试驱动开发（红-绿-重构循环），聚焦公共接缝，坚决杜绝实现耦合、同义反复与水平切片三大反模式。
 - **[`@core/implement`](./skills/core/implement)** *(来源: Matt Pocock)*: 从 Spec 规范或工单落地实现的闭环流水线（垂直切片分解、TDD 步进、防御性编译校验与审查交付）。
 - **[`@core/research`](./skills/core/research)** *(来源: Matt Pocock)*: 严肃技术调研与评估 SOP，坚守一手权威信源（官方文档、源码实现、RFC 规约、沙箱实测），输出结构化决策报告。
+- **[`@core/token-efficient-refactor`](./skills/core/token-efficient-refactor)** *(来源: Pinkney 实战沉淀)*: 大型工程 AI 重构的 Token 成本控制 SOP——契约先行、会话隔离、机械与推理分层、自愈循环预算控制。
 - **[`@core/codebase-design`](./skills/core/codebase-design)** *(来源: Matt Pocock)*: 深模块 (Deep Modules) 现代设计统一词汇表与核心架构原则（模块、接口、深度、接缝、适配器、杠杆率、局部性与删除测试）。
 
 #### 🎨 端侧与前端通用规范 (client/ - 8 项)

@@ -2,9 +2,9 @@
   "name": "pinkney-agent-hub",
   "version": "3.1.0",
   "description": "Pinkney Agent Hub - 国际顶级通用 AI 技能 (Skills)、协议 (MCP) 与架构规范 (Specs) 公共资产中台",
-  "updatedAt": "2026-09-07T07:42:17.404Z",
+  "updatedAt": "2026-09-07T11:20:33.463Z",
   "stats": {
-    "totalSkills": 23,
+    "totalSkills": 24,
     "totalMcp": 3,
     "totalSpecs": 4
   },
@@ -94,6 +94,13 @@
           "pillar": "skills",
           "description": "将当前对话上下文和代码库现状提炼为清晰规范的特性技术规格说明书 (Spec)，并发布至项目任务追踪系统。无需繁琐重复面试，精准聚合已知共识。",
           "path": "skills/core/to-spec"
+        },
+        "token-efficient-refactor": {
+          "id": "token-efficient-refactor",
+          "category": "core",
+          "pillar": "skills",
+          "description": "大型工程 AI 重构/批量生成场景的 Token 成本控制 SOP：契约先行（脚本提取真值 JSON）、会话隔离（模块级新会话+跨会话续跑三件套）、机械与推理分层执行、自愈循环预算控制与 Prompt Caching 实务。",
+          "path": "skills/core/token-efficient-refactor"
         }
       },
       "client": {
