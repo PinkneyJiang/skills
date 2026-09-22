@@ -49,7 +49,7 @@
 本仓库所有技能均支持按需拷贝或通过 Agent 技能体系自动挂载至任意工作区：
 ```markdown
 # 在目标项目的 AGENTS.md 或系统提示词中引用：
-- 核心排错规范参考：[diagnosing-bugs](file:///d:/Work/pinkney-agent-hub/skills/core/diagnosing-bugs/SKILL.md)
-- 界面美学规范参考：[frontend-design-excellence](file:///d:/Work/pinkney-agent-hub/skills/client/frontend-design-excellence/SKILL.md)
-- 后端架构规范参考：[clean-architecture-module](file:///d:/Work/pinkney-agent-hub/skills/server/clean-architecture-module/SKILL.md)
+- 核心排错规范参考：[diagnosing-bugs](./skills/core/diagnosing-bugs/SKILL.md)
+- 界面美学规范参考：[frontend-design-excellence](./skills/client/frontend-design-excellence/SKILL.md)
+- 后端架构规范参考：[clean-architecture-module](./skills/server/clean-architecture-module/SKILL.md)
 ```

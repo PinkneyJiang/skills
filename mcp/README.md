@@ -42,18 +42,18 @@
   "mcpServers": {
     "component-inspector": {
       "command": "node",
-      "args": ["d:/Work/pinkney-agent-hub/mcp/client/mcp-component-inspector/dist/index.js"]
+      "args": ["<your-hub-path>/mcp/client/mcp-component-inspector/dist/index.js"]
     },
     "database-inspector": {
       "command": "node",
-      "args": ["d:/Work/pinkney-agent-hub/mcp/server/mcp-database-inspector/dist/index.js"],
+      "args": ["<your-hub-path>/mcp/server/mcp-database-inspector/dist/index.js"],
       "env": {
         "DATABASE_URL": "mysql://user:password@localhost:3306/my_database"
       }
     },
     "browser-automation": {
       "command": "node",
-      "args": ["d:/Work/pinkney-agent-hub/mcp/core/mcp-browser-automation/dist/index.js"]
+      "args": ["<your-hub-path>/mcp/core/mcp-browser-automation/dist/index.js"]
     }
   }
 }
